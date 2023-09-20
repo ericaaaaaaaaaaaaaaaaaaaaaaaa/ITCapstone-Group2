@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Palette Paradise</title>
+    <!-- webpage logo -->
+    <link rel="shortcut icon" type="x-icon" href="img/icon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="home.html"><img src="img/logo.png" class="logo" alt="logo" /></a>
+        <ul id="navbar">
+            <li><a href="home.html" class="material-symbols-rounded" id="active">home</a></li>
+            <li><a href="shop.html" class="material-symbols-rounded">store</a></li>
+            <li><a href="account.html" class="material-symbols-rounded">account_circle</a></li>
+            <li><a href="cart.html" class="material-symbols-rounded">shopping_cart</a></li>
+            <li><button id="form_open" class="material-symbols-rounded">login</button></li>
+        </ul>
+    </header>
+
+    <!-- popup login -->
+    <section class="login">
+        <div class="form_container">
+            <i class="material-symbols-rounded form_close">close</i>
+            <div class="form login_form">
+                <form action="#">
+                    <h2>Login</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter you email" required /><i class="material-symbols-rounded email">mail</i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Enter you password" required /><i class="material-symbols-rounded password">lock</i>
+                        <i class="fa fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="checkbox">Remember me</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Forgot password?</a>
+                    </div>
+                    <button class="button">Login Now</button>
+                    <div class="login_signup">
+                        Don't have an account? <a href="#" id="signup">Signup</a>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form signup_form">
+                <form action="#">
+                    <h2>Signup</h2>
+                    <div class="input_box">
+                        <input type="email" placeholder="Enter you email" required /><i class="material-symbols-rounded email">mail</i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Create password" required /><i class="material-symbols-rounded password">lock</i>
+                        <i class="fa fa-eye-slash pw_hide"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Confirm password" required /><i class="material-symbols-rounded password">lock</i>
+                        <i class="fa fa-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Signup Now</button>
+                    <div class="login_signup">
+                        Already have an account? <a href="#" id="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- hero banner -->
+    <section id="hero">
+        <h4>"Unleash Your Inner Artist, <br /> One Brushstroke at a Time"</h4>
+        <p>Professional Art Supplies</p>
+        <a href="shop.html"><button>Shop Now</button></a>
+    </section>
+
+    <!-- slider -->
+    <section id="essentials" class="section-p1">
+        <h2>ESSENTIALS</h2>
+        <p>Elevate Your Creativity with Premium Art Supplies!</p>
+        <div id="slider">
+            <input type="radio" name="slider" id="s1" checked />
+            <input type="radio" name="slider" id="s2" />
+            <input type="radio" name="slider" id="s3" />
+            <input type="radio" name="slider" id="s4" />
+            <input type="radio" name="slider" id="s5" />
+            
+            <label for="s1" id="slider1">
+                <img src="img/slider/slider 1.jpg" alt="Kalour Professional Sketching Pencils 12pc"/>
+            </label>
+            <label for="s2" id="slider2">
+                <img src="img/slider/slider 2.jpg" alt="ARTLINE Drawing System Set of 4 ( 0.1, 0.3, 05, 0.7 ) 4PSH1"/>
+            </label>
+            <label for="s3" id="slider3">
+                <img src="img/slider/slider 3.jpg" alt="Acrylic Gouache Set Primaries"/>
+            </label>
+            <label for="s4" id="slider4">
+                <img src="img/slider/slider 4.jpg" alt="MEEDEN Canvas Boards"/>
+            </label>
+            <label for="s5" id="slider5">
+                <img src="img/slider/slider 5.jpg" alt="Blick Studio Oil Colors"/>
+            </label>            
+        </div>
+    </section>
+    
+    <!-- featured products -->
+    <section id="product1" class="section-p1">
+        <h2>FEATURED PRODUCTS</h2>
+        <p>Discover Excellence: Our Featured Products, Your Ultimate Choice!</p>
+        <div class="pro-container">
+            <div class="pro" id="shrink-border" onclick="window.location.href='sprod.html';">
+                <img src="img/products/pencil 1.jpg" alt="Kalour Professional Sketching Pencils 12pc">
+                <div class="des">
+                    <span>kalour</span>
+                    <h5>Professional Sketching Pencils</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$7</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/pen 2.jpg" alt="ARTLINE Drawing System Set of 4 ( 0.1, 0.3, 05, 0.7 ) 4PSH1">
+                <div class="des">
+                    <span>artline</span>
+                    <h5>Drawing System Set</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$11</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/acrylic 1a.jpg" alt="Acrylic Gouache Set Primaries">
+                <div class="des">
+                    <span>liquitex</span>
+                    <h5>Acrylic Gouache Set</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$75</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/oil 1.jpg" alt="Blick Studio Oil Colors">
+                <div class="des">
+                    <span>blick</span>
+                    <h5>Studio Oil Color Starter Set</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/palette 1.jpg" alt="Blick Palette Paper">
+                <div class="des">
+                    <span>blick</span>
+                    <h5>Palette Paper</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$23</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/sketchbook 1.jpg" alt="Canson XL Mix Media Paper">
+                <div class="des">
+                    <span>canson</span>
+                    <h5>XL Mix Media Paper</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$97</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/brush 1.jpg" alt="Utrecht Natural Chungking Pure Bristle Brush ">
+                <div class="des">
+                    <span>utrecht</span>
+                    <h5>Natural Chungking Pure Bristle Brush</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$43</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/palette knives 1.jpg" alt="Blick Painting Knife Set">
+                <div class="des">
+                    <span>blick</span>
+                    <h5>Detailed Painting Knife Set</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/easel 1.jpg" alt="MEEDEN Forward Tilt Floor Easel">
+                <div class="des">
+                    <span>meeden</span>
+                    <h5>Forward Tilt Floor Easel</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$99</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+            <div class="pro" id="shrink-border">
+                <img src="img/products/canvas 1.jpg" alt="MEEDEN 15-Pack Canvas Boards for Painting">
+                <div class="des">
+                    <span>meeden</span>
+                    <h5>15-Pack Canvas Boards</h5>
+                    <div class="star">
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                        <i class="material-symbols-rounded">grade</i>
+                    </div>
+                    <h4>$19</h4>
+                </div>
+            <a href="#">
+                <i class="material-symbols-rounded cart">shopping_cart</i>
+                <i class="material-symbols-rounded add">add_circle</i>
+            </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 5678 Sunset Boulevard, Los Angeles, CA 90001</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Hours:</strong> 9:00 AM - 5:00 PM, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store">
+                <img src="img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="Payment Methods">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, IT Capstone Group 2 - Women in Stem</p>
+        </div>
+
+        <div class="citations">
+            <cite>Web icon by <a href="https://www.flaticon.com/authors/darius-dan">Flaticon</a></cite>
+        </div>
+
+        <button onclick="topFunction()" id="pgup" class="material-symbols-rounded">arrow_circle_up</button>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>
