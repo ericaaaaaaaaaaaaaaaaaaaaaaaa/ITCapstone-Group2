@@ -8,9 +8,9 @@
 <body>
 
     <header class="header">
-        <a href="home.php"><img src="img/logo.png" class="logo" alt="logo" /></a>
+        <a href="index.php"><img src="img/logo.png" class="logo" alt="logo" /></a>
         <ul id="navbar">
-            <li><a href="home.php" class="material-symbols-rounded" id="active">home</a></li>
+            <li><a href="index.php" class="material-symbols-rounded" id="active">home</a></li>
             <li><a href="shop.php" class="material-symbols-rounded">store</a></li>
             <li><a href="account.php" class="material-symbols-rounded">account_circle</a></li>
             <li><a href="cart.php" class="material-symbols-rounded">shopping_cart</a></li>
