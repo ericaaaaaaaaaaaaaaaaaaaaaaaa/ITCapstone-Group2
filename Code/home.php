@@ -121,8 +121,8 @@
             <div class="pro" id="shrink-border">
                 <img src="img/products/oil 1.jpg" alt="Blick Studio Oil Colors">
                 <div class="des">
-                    <span>blick</span>
-                    <h5>Studio Oil Color Starter Set</h5>
+                    <span>blick studio</span>
+                    <h5>Oil Color Starter Set</h5>
                     <div class="star">
                         <i class="material-symbols-rounded">grade</i>
                         <i class="material-symbols-rounded">grade</i>
@@ -139,7 +139,7 @@
             <div class="pro" id="shrink-border">
                 <img src="img/products/palette 1.jpg" alt="Blick Palette Paper">
                 <div class="des">
-                    <span>blick</span>
+                    <span>blick studio</span>
                     <h5>Palette Paper</h5>
                     <div class="star">
                         <i class="material-symbols-rounded">grade</i>
@@ -193,7 +193,7 @@
             <div class="pro" id="shrink-border">
                 <img src="img/products/palette knives 1.jpg" alt="Blick Painting Knife Set">
                 <div class="des">
-                    <span>blick</span>
+                    <span>blick studio</span>
                     <h5>Detailed Painting Knife Set</h5>
                     <div class="star">
                         <i class="material-symbols-rounded">grade</i>
