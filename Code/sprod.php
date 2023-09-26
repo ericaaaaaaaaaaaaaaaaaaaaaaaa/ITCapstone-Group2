@@ -15,9 +15,9 @@
 <body>
 
     <header class="header" id="shop-nav">
-        <a href="home.php"><img src="img/logo.png" class="logo" alt="logo" /></a>
+        <a href="index.php"><img src="img/logo.png" class="logo" alt="logo" /></a>
         <ul id="navbar">
-            <li><a href="home.php" class="material-symbols-rounded">home</a></li>
+            <li><a href="index.php" class="material-symbols-rounded">home</a></li>
             <li><a href="shop.php" class="material-symbols-rounded" id="active">store</a></li>
             <li><a href="account.php" class="material-symbols-rounded">account_circle</a></li>
             <li><a href="cart.php" class="material-symbols-rounded">shopping_cart</a></li>
@@ -123,8 +123,8 @@
             <div class="pro" id="shrink-border">
                 <img src="img/products/oil 1.jpg" alt="Blick Studio Oil Colors">
                 <div class="des">
-                    <span>blick</span>
-                    <h5>Studio Oil Color Starter Set</h5>
+                    <span>blick studio</span>
+                    <h5>Oil Color Starter Set</h5>
                     <div class="star">
                         <i class="material-symbols-rounded">grade</i>
                         <i class="material-symbols-rounded">grade</i>
@@ -141,7 +141,7 @@
             <div class="pro" id="shrink-border">
                 <img src="img/products/palette 1.jpg" alt="Blick Palette Paper">
                 <div class="des">
-                    <span>blick</span>
+                    <span>blick studio</span>
                     <h5>Palette Paper</h5>
                     <div class="star">
                         <i class="material-symbols-rounded">grade</i>
